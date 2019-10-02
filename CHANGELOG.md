@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.1](https://github.com/rx-ts/eslint-import-resolver-ts/compare/v0.4.0...v0.4.1) (2019-10-02)
+
+
+### Features
+
+* add support of .jsx to be used with `allowJs` ([2a4b854](https://github.com/rx-ts/eslint-import-resolver-ts/commit/2a4b854))
+
 ## [0.4.0](https://github.com/rx-ts/eslint-import-resolver-ts/compare/v0.3.0...v0.4.0) (2019-09-22)
 
 ### Bug Fixes
