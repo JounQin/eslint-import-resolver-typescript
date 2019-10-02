@@ -44,10 +44,10 @@ jobs:
 
   deploy:
     runs-on: macOS-latest
+    if: github.event_name == 'push' && github.ref	== 'master'
     needs: build
     steps:
       - name: Publish Release and npm Package
-        if: github.event_name == 'push' && github.ref	== 'master' && matrix.node == '12.x'
         run: bash deploy.sh
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -60,7 +60,6 @@ jobs:
     needs: [build, deploy]
     steps:
       - name: Code Check
-        if: matrix.node == '12.x'
         run: |
           yarn add -D @codechecks/client @codechecks/build-size-watcher
           yarn codechecks
