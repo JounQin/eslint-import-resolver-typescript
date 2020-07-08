@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.5.0](https://github.com/rx-ts/eslint-import-resolver-ts/compare/v0.4.0...v0.5.0) (2020-07-08)
+
+
+### Bug Fixes
+
+* add pretest script which is required ([1ffcd83](https://github.com/rx-ts/eslint-import-resolver-ts/commit/1ffcd834931ebc1f721543ed89d071a91fadb1ae))
+* options could be null - close [#42](https://github.com/rx-ts/eslint-import-resolver-ts/issues/42) ([81db8eb](https://github.com/rx-ts/eslint-import-resolver-ts/commit/81db8eb0ae81af437e11b6341d8f237bc4bc4e39))
+* typo ([#40](https://github.com/rx-ts/eslint-import-resolver-ts/issues/40)) ([585509e](https://github.com/rx-ts/eslint-import-resolver-ts/commit/585509e95f93adf8b7ef5839029c19c55edbe76e))
+
 ## [2.0.0](https://github.com/alexgorbatchev/eslint-import-resolver-typescript/compare/v1.1.1...v2.0.0) (2019-10-17)
 
 
