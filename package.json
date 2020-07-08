@@ -1,8 +1,8 @@
 {
-  "name": "eslint-import-resolver-typescript",
-  "version": "2.0.0",
+  "name": "eslint-import-resolver-ts",
+  "version": "0.5.0",
   "description": "TypeScript .ts .tsx module resolver for `eslint-plugin-import`.",
-  "repository": "https://github.com/alexgorbatchev/eslint-import-resolver-typescript",
+  "repository": "https://github.com/rx-ts/eslint-import-resolver-ts",
   "author": "Alex Gorbatchev <alex.gorbatchev@gmail.com>",
   "contributors": [
     "JounQin <admin@1stg.me>"
@@ -61,14 +61,13 @@
     "@types/resolve": "^1.14.0",
     "@types/unist": "^2.0.3",
     "dummy.js": "link:dummy.js",
-    "eslint-import-resolver-typescript": "link:.",
     "npm-run-all": "^4.1.5",
     "react": "^16.13.1",
     "type-coverage": "^2.4.2",
     "typescript": "^3.8.3"
   },
   "resolutions": {
-    "eslint-import-resolver-typescript": "link:."
+    "eslint-import-resolver-ts": "link:."
   },
   "typeCoverage": {
     "atLeast": 100

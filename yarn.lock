@@ -3957,17 +3957,10 @@ eslint-import-resolver-node@^0.3.2:
     resolve "^1.13.1"
 
 eslint-import-resolver-ts@^0.4.2:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/eslint-import-resolver-ts/-/eslint-import-resolver-ts-0.4.2.tgz#cd1a4a31144d15b5b6ec7aa88920df4b0e07a385"
-  integrity sha512-M5WH0xJ3nnwSZZ8f6J550elDmsf/86mau66irHm+qBr5n0soqfuKqr41Qd6oZNBCY6FoSAkiLgnVFEvXAoBvZA==
-  dependencies:
-    debug "^4.1.1"
-    is-glob "^4.0.1"
-    resolve "^1.12.0"
-    tiny-glob "^0.2.6"
-    tsconfig-paths "^3.9.0"
+  version "0.0.0"
+  uid ""
 
-"eslint-import-resolver-typescript@link:.":
+"eslint-import-resolver-ts@link:.":
   version "0.0.0"
   uid ""
 

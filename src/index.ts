@@ -11,7 +11,7 @@ import isGlob from 'is-glob'
 import { isCore, sync } from 'resolve'
 import debug from 'debug'
 
-const log = debug('eslint-import-resolver-typescript')
+const log = debug('eslint-import-resolver-ts')
 
 const extensions = ['.ts', '.tsx', '.d.ts'].concat(
   // eslint-disable-next-line node/no-deprecated-api
