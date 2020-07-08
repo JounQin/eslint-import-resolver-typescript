@@ -66,7 +66,7 @@ export function resolve(
       basedir: path.dirname(path.resolve(file)),
       packageFilter,
     })
-  } catch (err) {
+  } catch {
     foundNodePath = null
   }
 
@@ -153,7 +153,9 @@ function initMappers(options: TsResolverOptions) {
       (paths, path) => paths.concat(isGlob(path) ? globSync(path) : path),
       [],
     )
+    // eslint-disable-next-line unicorn/no-fn-reference-in-iterator
     .map(loadConfig)
+    // eslint-disable-next-line unicorn/no-fn-reference-in-iterator
     .filter(isConfigLoaderSuccessResult)
     .map(configLoaderResult => {
       const matchPath = createMatchPath(
@@ -164,7 +166,7 @@ function initMappers(options: TsResolverOptions) {
       return (source: string, file: string) => {
         // exclude files that are not part of the config base url
         if (!file.includes(configLoaderResult.absoluteBaseUrl)) {
-          return undefined
+          return
         }
 
         // look for files based on setup tsconfig "paths"
